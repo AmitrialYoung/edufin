@@ -10,7 +10,7 @@ hide:
 ---
 
 
-Zarządzanie ryzykiem to uporządkowane podejście do ochrony kapitału przed sytuacjami, w których rynek idzie w przeciwną stronę, niż przewidywałeś.
+Zarządzanie ryzykiem to uporządkowane podejście do ochrony kapitału przed sytuacjami, w których rynek idzie w przeciwną stronę, niż przewidujemy.
 
 W tradingu zakłada się, że straty są nieuniknione; to koszt prowadzenia „działalności”, tak jak wydatki operacyjne w zwykłej firmie. Kluczowa różnica między tymi, którzy zarabiają, a tymi, którzy tracą, polega na tym, żeby te straty były mniejsze niż zyski. Innymi słowy: tracisz często, ale zarabiasz więcej, niż tracisz *(asymetria wyników)*.
 
@@ -45,22 +45,29 @@ Skuteczne zarządzanie portfelem wymaga rozróżnienia między dwoma fundamental
 
 Ryzyko systematyczne dotyczy całego rynku lub danej klasy aktywów i wynika z czynników makroekonomicznych, geopolitycznych oraz systemowych. Jest ono nieuniknione i nie może zostać wyeliminowane poprzez prostą dywersyfikację w ramach jednej klasy aktywów.
 
-**Przykłady czynników generujących ryzyko systematyczne:**
-- Zmiany stóp procentowych przez banki centralne.
-- Inflacja i zmiany siły nabywczej pieniądza.
-- Globalne recesje i kryzysy gospodarcze.
-- Wojny, terroryzm i niestabilność polityczna.
+>**Przykłady czynników generujących ryzyko systematyczne:**
+
+	- Zmiany stóp procentowych przez banki centralne.
+
+	- Inflacja i zmiany siły nabywczej pieniądza.
+
+	- Globalne recesje i kryzysy gospodarcze.
+
+	- Wojny, terroryzm i niestabilność polityczna.
 
 #### Ryzyko niesystematyczne (specyficzne)
 
 Ryzyko niesystematyczne, zwane również specyficznym lub dywersyfikowalnym, jest unikalne dla konkretnej spółki, branży lub sektora. Wynika ono z wewnętrznych procesów operacyjnych, decyzji zarządu czy zdarzeń losowych dotyczących bezpośrednio danego podmiotu.
 
-**Główne kategorie ryzyka niesystematycznego:**
+>**Główne kategorie ryzyka niesystematycznego:**
 
-- **Ryzyko biznesowe:** niepowodzenia nowych produktów, utrata kluczowych klientów.
-- **Ryzyko finansowe:** problemy z płynnością, nadmierne zadłużenie spółki.
-- **Ryzyko operacyjne:** awarie systemów, błędy produkcyjne, strajki.
-- **Ryzyko regulacyjne:** zmiany przepisów uderzające w konkretną branżę.
+	- Ryzyko biznesowe: niepowodzenia nowych produktów, utrata kluczowych klientów.
+
+	- Ryzyko finansowe: problemy z płynnością, nadmierne zadłużenie spółki.
+
+	- Ryzyko operacyjne: awarie systemów, błędy produkcyjne, strajki.
+	
+	- Ryzyko regulacyjne: zmiany przepisów uderzające w konkretną branżę.
 
 ---
 ### **Psychologia ryzyka**
@@ -98,10 +105,10 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 
 - **Planowanie pozycji**: Nie przewidujesz przyszłości, tylko rozgrywasz scenariusz.
 
-- **STOP LOSS `SL`**: Pierwsza linia obrony przed "wybiciem". Musi być ustawiony tak, by chronić kapitał, ale też uwzględniać szum rynkowy.
+- **`STOP LOSS` SL**: Pierwsza linia obrony przed "wybiciem". Musi być ustawiony tak, by chronić kapitał, ale też uwzględniać szum rynkowy.
   Punkt, w którym scenariusz staje się nieaktualny.
 
-- **Risk/Reward Ratio `RRR`**: Minimalny stosunek zysku do ryzyka to **3:1**. *Poniżej tej wartości statystyka długoterminowa staje się niekorzystna jeżeli nie wliczamy fee do 1%.*
+- **`Risk/Reward Ratio` RRR**: Minimalny stosunek zysku do ryzyka to **3:1**. *Poniżej tej wartości statystyka długoterminowa staje się niekorzystna jeżeli nie wliczamy fee do 1%.*
 
 ---
 ### **Ryzyko 1%**
@@ -110,7 +117,7 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 #### Całkowity koszt porażki
 
 	Zamiast akceptować 1% straty + fee (co daje nawet 1,5%),
-	całkowity koszt zamknięcia na [SL] (strata z ceny + prowizje giełdowe) powinien wynosić równo 1% kapitału.
+	całkowity koszt zamknięcia na SL (strata z ceny + prowizje giełdowe) powinien wynosić równo 1% kapitału.
 
 #### Matematyczna nieśmiertelność
 
@@ -125,7 +132,7 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 | ![RRR3](screens/3R.png){ width="480" } | ![RRR11](screens/11R.png){ width="500" } | ![RRR18](screens/18R.png){ width="700" } |
  
 
-#### Symulacja kiedy ~90% pozycji przegranych
+#### Symulacja kiedy ~90% pozycji jest przegranych
 
 | Kapitał początkowy | Ryzyko na transakcję | Win Rate | Risk/Reward Ratio | Liczba transakcji |
 | :----------------: | :------------------: | :------: | :---------------: | :---------------: |
@@ -196,8 +203,9 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 #### Dźwignia to narzędzie
 
 Pozwala używać mniejszej ilości kapitału własnego i nie zwiększa ryzyka ponad zaplanowany 1%. 
-	- Zalecane: *wliczaj prowizję w 1%.*
-	- Opcjonalne:  *1% czystego kapitału i zwiększony bufor dla likwidacji (mniejsza dźwignia).*
+
+- Zalecane: *wliczaj prowizję w 1%.*
+- Opcjonalne:  *1% czystego kapitału i zwiększony bufor dla likwidacji (mniejsza dźwignia).*
 
 #### Poziom likwidacji **musi** zawsze znajdować się poza strefą `Stop Loss'a`.
 
@@ -207,7 +215,9 @@ Pozwala używać mniejszej ilości kapitału własnego i nie zwiększa ryzyka po
 
 #### Bufor bezpieczeństwa
 
-Wybieraj taką dźwignię, aby między [SL] a likwidacją był margines błędu na wypadek gwałtownych skoków zmienności (tzw. `slippage`). Jeśli Twoje 1% ryzyka jest wyliczone "na styk", poślizg może sprawić, że likwidacja się zrealizuje.
+Wybieraj taką dźwignię, aby między **SL** a likwidacją był margines błędu na wypadek gwałtownych skoków zmienności.
+
+Jeśli Twoje 1% ryzyka jest wyliczone "na styk", poślizg może sprawić, że likwidacja się zrealizuje.
 
 | Zastosowany większy margines błędu.<br>SL wybity, utrata 1% kapitału. | SL nie został zrealizowany, poziom likwidacji został wybity.<br>Konto wyzerowane. |
 | :-----------------------------------------------------------------: | :----------------------------------------------------------------------------: |
@@ -216,9 +226,9 @@ Wybieraj taką dźwignię, aby między [SL] a likwidacją był margines błędu 
 
 **Dodatkowo:**
 
-1. `Take Profit` [TP] musi być wyznaczony. Może być ich kilka: [TP1], [TP2], [TP3]
+1. `Take Profit` **TP** musi być wyznaczony. Może być ich kilka: **TP1**, **TP2**, **TP3**
 
-2. Prowadząc pozycję staramy się przesunąć [SL] w `Break Even`[BE] (+fee). W razie wybicia pozwoli to wyjść na "zero".
+2. Prowadząc pozycję staramy się przesunąć **SL** w `Break Even`**BE** (+fee). W razie wybicia pozwoli to wyjść na "zero".
 
-3. Z czasem [SL] przesuwany w profit.
+3. Z czasem **SL** przesuwany w profit.
 
