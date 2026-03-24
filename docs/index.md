@@ -120,9 +120,9 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 
 	Zarobkiem jest wielokrotność ryzyka (R), a nie ruch procentowy. Zagranie 10R to 10% zysku konta przy ryzyku 1%.
 
-|                   3,5R                    |                    11R                    |                    18R                    |
-| :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| ![[Pasted image 20260323134805.png\|177]] | ![[Pasted image 20260323134609.png\|184]] | ![[Pasted image 20260323135241.png\|254]] |
+|                  3,4R                  |                     11R                  |                    18,5R                 |
+| :------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+| ![RRR3](screens/3R.png){ width="480" } | ![RRR11](screens/11R.png){ width="500" } | ![RRR18](screens/18R.png){ width="700" } |
  
 
 #### Symulacja kiedy ~90% pozycji przegranych
@@ -187,10 +187,7 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 
 </div>
 
-
-
-![[Pasted image 20260324122454.png]]
-
+![Podsumowanie wyników](screens/wykresy.png)
 
 ---
 ### **Dźwignia i Bezpieczeństwo Likwidacji**
@@ -204,17 +201,17 @@ Pozwala używać mniejszej ilości kapitału własnego i nie zwiększa ryzyka po
 
 #### Poziom likwidacji **musi** zawsze znajdować się poza strefą `Stop Loss'a`.
 
-| Kiedy SL zostanie zrealizowany<br>utrata 1% kapitału. |   Likwidacja.<br>Konto wyzerowane.   |
-| :---------------------------------------------------: | :----------------------------------: |
-|         ![[Pasted image 20260324030230.png]]          | ![[Pasted image 20260324030114.png]] |
+| Kiedy SL zostanie zrealizowany<br>utrata 1% kapitału. |         Likwidacja.<br>Konto wyzerowane.        |
+| :---------------------------------------------------: | :---------------------------------------------: |
+|      ![realizacja_1p](screens/realizacja_1p.png)      | ![likwidacja_w_SL](screens/likwidacja_w_SL.png) |
 
 #### Bufor bezpieczeństwa
 
 Wybieraj taką dźwignię, aby między [SL] a likwidacją był margines błędu na wypadek gwałtownych skoków zmienności (tzw. `slippage`). Jeśli Twoje 1% ryzyka jest wyliczone "na styk", poślizg może sprawić, że likwidacja się zrealizuje.
 
 | Zastosowany większy margines błędu.<br>SL wybity, utrata 1% kapitału. | SL nie został zrealizowany, poziom likwidacji został wybity.<br>Konto wyzerowane. |
-| :-------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
-|                 ![[Pasted image 20260324025759.png]]                  |                       ![[Pasted image 20260324025418.png]]                        |
+| :-----------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+|                 ![bufor](screens/bufor.png)             |                  ![slippage](screens/slippage.png)               |
 
 
 **Dodatkowo:**
