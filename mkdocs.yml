@@ -4,6 +4,7 @@ site_description: Projekty z obszaru edukacji finansowej, inwestowania, oszczęd
 
 theme:
   name: material
+  custom_dir: overrides
   language: pl
   features:
     - navigation.tabs          # Główne menu na górze
