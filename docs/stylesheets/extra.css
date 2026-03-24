@@ -1,27 +1,19 @@
-/* Ukrywa automatyczny tytuł strony (h1), który generuje MkDocs */
+/* 1. Ukrycie automatycznego tytułu strony */
 .md-content h1:first-child {
-    display: none;
+  display: none;
 }
 
+/* 2. Globalny rozmiar czcionki treści (12px - dość mała) */
 .md-typeset {
-  font-size: 0.75rem !important; /* Tutaj wpisz pożądaną wielkość, np. 1.2rem lub 20px */
+  font-size: 0.75rem !important;
 }
 
-/* Zmienia kolor wszystkich nagłówków H3 na indygo */
+/* 3. Kolor nagłówków H3 (Indygo) */
 .md-typeset h3 {
-  color: #3f51b5 !important; /* To jest standardowy odcień Indigo z palety Material */
+  color: #3f51b5 !important;
 }
 
-/* Wymusza układ siatki dla bloku grid */
-.md-typeset .grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
-  gap: 1rem;
-}
-
-
-/* -------------------------------------------------------------------------------- */
-/* Wymuszenie siatki dla klasy .grid */
+/* 4. Konfiguracja siatki (Grid) dla tabel obok siebie */
 .md-typeset .grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
@@ -29,15 +21,14 @@
   margin-top: 1rem;
 }
 
-/* Ustawienie tabel, aby nie blokowały siatki */
-.md-typeset .grid > div {
-  width: 100%;
-}
-
+/* Wymuszenie czytelności tabel wewnątrz siatki */
 .md-typeset .grid table {
   margin: 0 !important;
   width: 100% !important;
-  display: table !important; /* To jest kluczowe! */
+  display: table !important;
 }
-/* -------------------------------------------------------------------------------- */
 
+/* 5. Ukrycie napisu "Made with Material for MkDocs" */
+.md-copyright__generator {
+  display: none;
+}
