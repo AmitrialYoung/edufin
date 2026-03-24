@@ -217,7 +217,7 @@ Pozwala używać mniejszej ilości kapitału własnego i nie zwiększa ryzyka po
 
 Wybieraj taką dźwignię, aby między **SL** a likwidacją był margines błędu na wypadek gwałtownych skoków zmienności.
 
-Jeśli Twoje 1% ryzyka jest wyliczone "na styk", poślizg może sprawić, że likwidacja się zrealizuje.
+Jeśli 1% ryzyka jest wyliczone "na styk", poślizg może sprawić, że likwidacja się zrealizuje.
 
 | Zastosowany większy margines błędu.<br>SL wybity, utrata 1% kapitału. | SL nie został zrealizowany, poziom likwidacji został wybity.<br>Konto wyzerowane. |
 | :-----------------------------------------------------------------: | :----------------------------------------------------------------------------: |
