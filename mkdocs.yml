@@ -2,8 +2,7 @@ site_name: Risk Management
 site_author: Mariusz Wolak 
 site_description: Projekty z obszaru edukacji finansowej, inwestowania, oszczędzania i zarządzania.
 
-repo_name: AmitrialYoung/edufin
-repo_url: https://github.com/AmitrialYoung/edufin
+
 
 theme:
   name: material
