@@ -1,7 +1,8 @@
 
 ---
-## Risk Management
+### Risk Management
 ---
+
 
 Zarządzanie ryzykiem to uporządkowane podejście do ochrony kapitału przed sytuacjami, w których rynek idzie w przeciwną stronę, niż przewidywałeś.
 
@@ -12,12 +13,12 @@ Podstawy zarządzania ryzykiem są dość proste: dobrze dobrać wielkość pozy
 Dzięki temu jesteś w stanie przetrwać nawet serię nieudanych transakcji. Bez takiego podejścia nawet dobra strategia wejścia może skończyć się wyzerowaniem konta, np. przez jedno nagłe, nieprzewidywalne zdarzenie *(np. „czarny łabędź”)*.
 
 ---
-## Matematyczne aspekty asymetrii strat i odzyskiwania kapitału
+### Matematyczne aspekty asymetrii strat i odzyskiwania kapitału
 ---
 
 Zarządzanie ryzykiem musi uwzględniać matematyczną naturę strat, która jest nieliniowa i faworyzuje ochronę kapitału ponad agresywne dążenie do zysków. Zjawisko to, znane jako asymetria strat, polega na tym, że procentowy zysk potrzebny do odrobienia straty rośnie szybciej niż sama strata.
 
-### Tabela regresji kapitałowej i wymaganej regeneracji
+#### Tabela regresji kapitałowej i wymaganej regeneracji
 
 |Procentowa strata kapitału|Wymagany zysk do powrotu do break-even|Implikacje dla strategii|
 |---|---|---|
@@ -29,12 +30,12 @@ Zarządzanie ryzykiem musi uwzględniać matematyczną naturę strat, która jes
 |90%|900,00%|Statystyczne bankructwo.|
 
 ---
-## Ryzyko systematyczne i niesystematyczne
+### Ryzyko systematyczne i niesystematyczne
 ---
 
 Skuteczne zarządzanie portfelem wymaga rozróżnienia między dwoma fundamentalnymi rodzajami ryzyka, które mają odmienne przyczyny i wymagają różnych metod mitygacji.
 
-### Ryzyko systematyczne (rynkowe)
+#### Ryzyko systematyczne (rynkowe)
 
 Ryzyko systematyczne dotyczy całego rynku lub danej klasy aktywów i wynika z czynników makroekonomicznych, geopolitycznych oraz systemowych. Jest ono nieuniknione i nie może zostać wyeliminowane poprzez prostą dywersyfikację w ramach jednej klasy aktywów.
 
@@ -44,23 +45,24 @@ Ryzyko systematyczne dotyczy całego rynku lub danej klasy aktywów i wynika z c
 - Globalne recesje i kryzysy gospodarcze.
 - Wojny, terroryzm i niestabilność polityczna.
 
-### Ryzyko niesystematyczne (specyficzne)
+#### Ryzyko niesystematyczne (specyficzne)
 
 Ryzyko niesystematyczne, zwane również specyficznym lub dywersyfikowalnym, jest unikalne dla konkretnej spółki, branży lub sektora. Wynika ono z wewnętrznych procesów operacyjnych, decyzji zarządu czy zdarzeń losowych dotyczących bezpośrednio danego podmiotu.
 
 **Główne kategorie ryzyka niesystematycznego:**
+
 - **Ryzyko biznesowe:** niepowodzenia nowych produktów, utrata kluczowych klientów.
 - **Ryzyko finansowe:** problemy z płynnością, nadmierne zadłużenie spółki.
 - **Ryzyko operacyjne:** awarie systemów, błędy produkcyjne, strajki.
 - **Ryzyko regulacyjne:** zmiany przepisów uderzające w konkretną branżę.
 
 ---
-## Psychologia ryzyka
+### Psychologia ryzyka
 ---
 
 Zarządzanie ryzykiem to w dużej mierze zarządzanie własnymi emocjami i błędami poznawczymi. Nawet najbardziej zaawansowane systemy matematyczne zawodzą, gdy ludzie ulegają presji psychologicznej.
 
-### Teoria perspektywy i awersja do strat
+#### Teoria perspektywy i awersja do strat
 
 Badania Kahnemana i Tversky'ego wykazały, że ludzie nie są racjonalni w ocenie ryzyka. Awersja do strat sprawia, że ból z utraty 1000 PLN jest silniejszy niż satysfakcja z zyskania 1000 PLN. Prowadzi to do irracjonalnych zachowań rynkowych, takich jak:
 
@@ -71,7 +73,7 @@ Badania Kahnemana i Tversky'ego wykazały, że ludzie nie są racjonalni w oceni
 Zwalczanie tych błędów wymaga wdrożenia sztywnych procedur, takich jak automatyczne zlecenia `Stop Loss` / `Take Profit`, które usuwają konieczność podejmowania decyzji w chwilach stresu.
 
 ---
-## Najczęstsze błędy w zarządzaniu ryzykiem i metody ich eliminacji
+### Najczęstsze błędy w zarządzaniu ryzykiem i metody ich eliminacji
 ---
 
 Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cenowych, lecz z fundamentalnych błędów w zarządzaniu kapitałem.
@@ -85,7 +87,7 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 | Ignorowanie kosztów | Prowizje i spready zjadają zysk, szczególnie przy nadmiernym handlu.     | Analiza kosztów transakcyjnych i optymalizacja częstotliwości handlu.       |
 
 ---
-## Święta Trójca Risk Management
+### Święta Trójca Risk Management
 ---
 
 - **Planowanie pozycji**: Nie przewidujesz przyszłości, tylko rozgrywasz scenariusz.
@@ -96,18 +98,18 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 - **[RRR] (`Risk/Reward Ratio`)**: Minimalny stosunek zysku do ryzyka to **3:1**. *Poniżej tej wartości statystyka długoterminowa staje się niekorzystna jeżeli nie wliczamy fee do 1%.*
 
 ---
-## Ryzyko 1%
+### Ryzyko 1%
 ---
 
-### Całkowity koszt porażki
+#### Całkowity koszt porażki
 
 Zamiast akceptować 1% straty + fee (co daje nawet 1,5%), całkowity koszt zamknięcia na [SL] (strata z ceny + prowizje giełdowe) powinien wynosić **równo 1% kapitału**.
 
-### Matematyczna nieśmiertelność
+#### Matematyczna nieśmiertelność
 
 Trzymanie się sztywnego 1% sprawia, że nawet długa seria strat nie wyzeruje konta.
 
-#### Symulacja kiedy ~90% pozycji przegranych
+##### Symulacja kiedy ~90% pozycji przegranych
 
 **Kapitał początkowy:** $1,000
 **Ryzyko na transakcję:** 1.0%
@@ -157,7 +159,7 @@ Najgorsza transakcja: $-10.29
 
 ![[Pasted image 20260324122454.png]]
 
-### [RRR] jako mnożnik
+#### [RRR] jako mnożnik
 
 Zarobkiem jest wielokrotność ryzyka (R), a nie ruch procentowy. Zagranie 10R to 10% zysku konta przy ryzyku 1%.
 
@@ -166,22 +168,22 @@ Zarobkiem jest wielokrotność ryzyka (R), a nie ruch procentowy. Zagranie 10R t
 | ![[Pasted image 20260323134805.png\|177]] | ![[Pasted image 20260323134609.png\|184]] | ![[Pasted image 20260323135241.png\|254]] |
  
 ---
-## Dźwignia i Bezpieczeństwo Likwidacji
+### Dźwignia i Bezpieczeństwo Likwidacji
 ---
 
-### Dźwignia to narzędzie
+#### Dźwignia to narzędzie
 
 Pozwala używać mniejszej ilości kapitału własnego i nie zwiększa ryzyka ponad zaplanowany 1%. 
 	- Zalecane: *wliczaj prowizję w 1%.*
 	- Opcjonalne:  *1% czystego kapitału i zwiększony bufor dla likwidacji (mniejsza dźwignia).*
 
-### Poziom likwidacji **musi** zawsze znajdować się poza strefą `Stop Loss'a`.
+#### Poziom likwidacji **musi** zawsze znajdować się poza strefą `Stop Loss'a`.
 
 | Kiedy SL zostanie zrealizowany<br>utrata 1% kapitału. |   Likwidacja.<br>Konto wyzerowane.   |
 | :---------------------------------------------------: | :----------------------------------: |
 |         ![[Pasted image 20260324030230.png]]          | ![[Pasted image 20260324030114.png]] |
 
-### Bufor bezpieczeństwa
+#### Bufor bezpieczeństwa
 
 Wybieraj taką dźwignię, aby między [SL] a likwidacją był margines błędu na wypadek gwałtownych skoków zmienności (tzw. `slippage`). Jeśli Twoje 1% ryzyka jest wyliczone "na styk", poślizg może sprawić, że likwidacja się zrealizuje.
 
@@ -190,7 +192,7 @@ Wybieraj taką dźwignię, aby między [SL] a likwidacją był margines błędu 
 |                 ![[Pasted image 20260324025759.png]]                  |                       ![[Pasted image 20260324025418.png]]                        |
 
 ---
-## Podsumowanie
+### Podsumowanie
 ---
 
 To co możemy poświęcić (1%)[SL] ryzykując.
