@@ -1,6 +1,12 @@
+---
+title: ""
+hide:
+  - toc
+  - navigation
+---
 
 ---
-### Risk Management
+### **Risk Management**
 ---
 
 
@@ -13,7 +19,7 @@ Podstawy zarządzania ryzykiem są dość proste: dobrze dobrać wielkość pozy
 Dzięki temu jesteś w stanie przetrwać nawet serię nieudanych transakcji. Bez takiego podejścia nawet dobra strategia wejścia może skończyć się wyzerowaniem konta, np. przez jedno nagłe, nieprzewidywalne zdarzenie *(np. „czarny łabędź”)*.
 
 ---
-### Matematyczne aspekty asymetrii strat i odzyskiwania kapitału
+### **Matematyczne aspekty asymetrii strat i odzyskiwania kapitału**
 ---
 
 Zarządzanie ryzykiem musi uwzględniać matematyczną naturę strat, która jest nieliniowa i faworyzuje ochronę kapitału ponad agresywne dążenie do zysków. Zjawisko to, znane jako asymetria strat, polega na tym, że procentowy zysk potrzebny do odrobienia straty rośnie szybciej niż sama strata.
@@ -30,7 +36,7 @@ Zarządzanie ryzykiem musi uwzględniać matematyczną naturę strat, która jes
 |90%|900,00%|Statystyczne bankructwo.|
 
 ---
-### Ryzyko systematyczne i niesystematyczne
+### **Ryzyko systematyczne i niesystematyczne**
 ---
 
 Skuteczne zarządzanie portfelem wymaga rozróżnienia między dwoma fundamentalnymi rodzajami ryzyka, które mają odmienne przyczyny i wymagają różnych metod mitygacji.
@@ -57,7 +63,7 @@ Ryzyko niesystematyczne, zwane również specyficznym lub dywersyfikowalnym, jes
 - **Ryzyko regulacyjne:** zmiany przepisów uderzające w konkretną branżę.
 
 ---
-### Psychologia ryzyka
+### **Psychologia ryzyka**
 ---
 
 Zarządzanie ryzykiem to w dużej mierze zarządzanie własnymi emocjami i błędami poznawczymi. Nawet najbardziej zaawansowane systemy matematyczne zawodzą, gdy ludzie ulegają presji psychologicznej.
@@ -73,7 +79,7 @@ Badania Kahnemana i Tversky'ego wykazały, że ludzie nie są racjonalni w oceni
 Zwalczanie tych błędów wymaga wdrożenia sztywnych procedur, takich jak automatyczne zlecenia `Stop Loss` / `Take Profit`, które usuwają konieczność podejmowania decyzji w chwilach stresu.
 
 ---
-### Najczęstsze błędy w zarządzaniu ryzykiem i metody ich eliminacji
+### **Najczęstsze błędy w zarządzaniu ryzykiem i metody ich eliminacji**
 ---
 
 Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cenowych, lecz z fundamentalnych błędów w zarządzaniu kapitałem.
@@ -87,35 +93,43 @@ Większość porażek na rynkach finansowych nie wynika z błędnych prognoz cen
 | Ignorowanie kosztów | Prowizje i spready zjadają zysk, szczególnie przy nadmiernym handlu.     | Analiza kosztów transakcyjnych i optymalizacja częstotliwości handlu.       |
 
 ---
-### Święta Trójca Risk Management
+### **Święta Trójca Risk Management**
 ---
 
 - **Planowanie pozycji**: Nie przewidujesz przyszłości, tylko rozgrywasz scenariusz.
 
-- **`STOP LOSS` [SL]**: Pierwsza linia obrony przed "wybiciem". Musi być ustawiony tak, by chronić kapitał, ale też uwzględniać szum rynkowy.
+- **STOP LOSS `SL`**: Pierwsza linia obrony przed "wybiciem". Musi być ustawiony tak, by chronić kapitał, ale też uwzględniać szum rynkowy.
   Punkt, w którym scenariusz staje się nieaktualny.
 
-- **[RRR] (`Risk/Reward Ratio`)**: Minimalny stosunek zysku do ryzyka to **3:1**. *Poniżej tej wartości statystyka długoterminowa staje się niekorzystna jeżeli nie wliczamy fee do 1%.*
+- **Risk/Reward Ratio `RRR`**: Minimalny stosunek zysku do ryzyka to **3:1**. *Poniżej tej wartości statystyka długoterminowa staje się niekorzystna jeżeli nie wliczamy fee do 1%.*
 
 ---
-### Ryzyko 1%
+### **Ryzyko 1%**
 ---
 
 #### Całkowity koszt porażki
 
-Zamiast akceptować 1% straty + fee (co daje nawet 1,5%), całkowity koszt zamknięcia na [SL] (strata z ceny + prowizje giełdowe) powinien wynosić **równo 1% kapitału**.
+	Zamiast akceptować 1% straty + fee (co daje nawet 1,5%),
+	całkowity koszt zamknięcia na [SL] (strata z ceny + prowizje giełdowe) powinien wynosić równo 1% kapitału.
 
 #### Matematyczna nieśmiertelność
 
-Trzymanie się sztywnego 1% sprawia, że nawet długa seria strat nie wyzeruje konta.
+	Trzymanie się sztywnego 1% sprawia, że nawet długa seria strat nie wyzeruje konta.
 
-##### Symulacja kiedy ~90% pozycji przegranych
+#### [RRR] jako mnożnik
 
-**Kapitał początkowy:** $1,000
-**Ryzyko na transakcję:** 1.0%
-**Win Rate:** 10.0%
-**Risk/Reward Ratio:** 1:3.0
-**Liczba transakcji:** 100
+	Zarobkiem jest wielokrotność ryzyka (R), a nie ruch procentowy. Zagranie 10R to 10% zysku konta przy ryzyku 1%.
+
+|                   3,5R                    |                    11R                    |                    18R                    |
+| :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+| ![[Pasted image 20260323134805.png\|177]] | ![[Pasted image 20260323134609.png\|184]] | ![[Pasted image 20260323135241.png\|254]] |
+ 
+
+#### Symulacja kiedy ~90% pozycji przegranych
+
+| Kapitał początkowy | Ryzyko na transakcję | Win Rate | Risk/Reward Ratio | Liczba transakcji |
+| :----------------: | :------------------: | :------: | :---------------: | :---------------: |
+|       $1,000       |         1.0%         |   10.0%  |       1:3.0       |        100        |
 
 | Trade # | Balance Before | Risk Amount | Profit Amount | Win  |  PnL   | Balance After | Peak Balance | Drawdown (%) |
 | :-----: | :------------: | :---------: | :-----------: | :--: | :----: | :-----------: | :----------: | :----------: |
@@ -131,44 +145,55 @@ Trzymanie się sztywnego 1% sprawia, że nawet długa seria strat nie wyzeruje k
 |   99    |     577.39     |    5.77     |     17.32     | Lose | -5.77  |    571.62     |   1028.78    |    44.44%    |
 |   100   |     571.62     |    5.72     |     17.15     | Win  | 17.15  |    588.77     |   1028.78    |    42.77%    |
 
-PODSUMOWANIE WYNIKÓW 
+>Podsumowanie Wyników
 
-WYNIK FINANSOWY:
-Kapitał początkowy: $1,000.00
-Kapitał końcowy: $588.77
-Zysk/Strata (PLN): $-411.23
-Zysk/Strata (%): -41.12%
+<div class="grid" markdown>
 
-METRYKI RYZYKA:
-Maximum Drawdown: 44.44%
-Win Rate (rzeczywisty): 12.0%
-Expected Value (EV): -60.00%
+<div markdown>
+##### Wynik Finansowy
+| Parametr | Wartość |
+| :--- | :--- |
+| **Kapitał początkowy** | $1,000.00 |
+| **Kapitał końcowy** | $588.77 |
+| **Zysk/Strata (USD)** | $-411.23 |
+| **Zysk/Strata (%)** | -41.12% |
+</div>
 
-ANALIZA TRANSAKCJI:
-Liczba wygranych: 12/100
-Liczba przegranych: 88/100
-Gross Profit: $272.26
-Gross Loss: $683.50
-Profit Factor: 0.40
-Średni zysk: $22.69
-Średnia strata: $-7.77
+<div markdown>
+##### Metryki Ryzyka
+| Parametr | Wartość |
+| :--- | :--- |
+| **Maximum Drawdown** | 44.44% |
+| **Win Rate** | 12.0% |
+| **Expected Value (EV)** | -60.00% |
+</div>
 
-EKSTREMA:
-Najlepsza transakcja: $29.96
-Najgorsza transakcja: $-10.29
+<div markdown>
+##### Analiza Transakcji
+| Parametr | Wartość |
+| :--- | :--- |
+| **Profit Factor** | 0.40 |
+| **Średni zysk** | $22.69 |
+| **Średnia strata** | $-7.77 |
+</div>
+
+<div markdown>
+##### Ekstrema
+| Parametr | Wartość |
+| :--- | :--- |
+| **Najlepsza transakcja** | $29.96 |
+| **Najgorsza transakcja** | $-10.29 |
+</div>
+
+</div>
+
+
 
 ![[Pasted image 20260324122454.png]]
 
-#### [RRR] jako mnożnik
 
-Zarobkiem jest wielokrotność ryzyka (R), a nie ruch procentowy. Zagranie 10R to 10% zysku konta przy ryzyku 1%.
-
-|                   3,5R                    |                    11R                    |                    18R                    |
-| :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| ![[Pasted image 20260323134805.png\|177]] | ![[Pasted image 20260323134609.png\|184]] | ![[Pasted image 20260323135241.png\|254]] |
- 
 ---
-### Dźwignia i Bezpieczeństwo Likwidacji
+### **Dźwignia i Bezpieczeństwo Likwidacji**
 ---
 
 #### Dźwignia to narzędzie
@@ -191,16 +216,12 @@ Wybieraj taką dźwignię, aby między [SL] a likwidacją był margines błędu 
 | :-------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
 |                 ![[Pasted image 20260324025759.png]]                  |                       ![[Pasted image 20260324025418.png]]                        |
 
----
-### Podsumowanie
----
-
-To co możemy poświęcić (1%)[SL] ryzykując.
-Potencjalny zarobek to [RRR] wielokrotność [SL].
-
 
 **Dodatkowo:**
+
 1. `Take Profit` [TP] musi być wyznaczony. Może być ich kilka: [TP1], [TP2], [TP3]
+
 2. Prowadząc pozycję staramy się przesunąć [SL] w `Break Even`[BE] (+fee). W razie wybicia pozwoli to wyjść na "zero".
+
 3. Z czasem [SL] przesuwany w profit.
 

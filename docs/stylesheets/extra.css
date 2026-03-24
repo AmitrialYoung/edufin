@@ -1,0 +1,41 @@
+/* Ukrywa automatyczny tytuł strony (h1), który generuje MkDocs */
+.md-content h1:first-child {
+    display: none;
+}
+
+.md-typeset {
+  font-size: 0.75rem !important; /* Tutaj wpisz pożądaną wielkość, np. 1.2rem lub 20px */
+}
+
+/* Zmienia kolor wszystkich nagłówków H3 na indygo */
+.md-typeset h3 {
+  color: #3f51b5 !important; /* To jest standardowy odcień Indigo z palety Material */
+}
+
+/* Wymusza układ siatki dla bloku grid */
+.md-typeset .grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 1rem;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* Wymuszenie siatki dla klasy .grid */
+.md-typeset .grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 1.5rem !important;
+  margin-top: 1rem;
+}
+
+/* Ustawienie tabel, aby nie blokowały siatki */
+.md-typeset .grid > div {
+  width: 100%;
+}
+
+.md-typeset .grid table {
+  margin: 0 !important;
+  width: 100% !important;
+  display: table !important; /* To jest kluczowe! */
+}

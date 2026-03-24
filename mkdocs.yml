@@ -1,1 +1,38 @@
-site_name: My Docs
+site_name: Risk Management
+site_author: Mariusz Wolak 
+site_description: Projekty z obszaru edukacji finansowej, inwestowania, oszczędzania i zarządzania.
+
+theme:
+  name: material
+  language: pl
+  features:
+    - navigation.tabs          # Główne menu na górze
+    # - navigation.tabs.sticky   # Menu zostaje przy przewijaniu
+    # - navigation.sections      # Grupowanie sekcji
+    # - navigation.expand        # Automatyczne rozwijanie
+    # - toc.integrate            # INTEGRACJA: Spis treści strony wędruje do menu
+    # - content.code.copy
+  
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Tryb jasny
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Tryb ciemny
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Risk Management: index.md
