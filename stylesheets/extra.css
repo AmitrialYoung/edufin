@@ -1,0 +1,34 @@
+/* 1. Ukrycie automatycznego tytułu strony */
+.md-content h1:first-child {
+  display: none;
+}
+
+/* 2. Globalny rozmiar czcionki treści (12px - dość mała) */
+.md-typeset {
+  font-size: 0.75rem !important;
+}
+
+/* 3. Kolor nagłówków H3 (Indygo) */
+.md-typeset h3 {
+  color: #3f51b5 !important;
+}
+
+/* 4. Konfiguracja siatki (Grid) dla tabel obok siebie */
+.md-typeset .grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 1.5rem !important;
+  margin-top: 1rem;
+}
+
+/* Wymuszenie czytelności tabel wewnątrz siatki */
+.md-typeset .grid table {
+  margin: 0 !important;
+  width: 100% !important;
+  display: table !important;
+}
+
+/* 5. Ukrycie napisu "Made with Material for MkDocs" */
+.md-copyright__generator {
+  display: none;
+}
