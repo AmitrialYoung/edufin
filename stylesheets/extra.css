@@ -1,19 +1,19 @@
-/* 1. Ukrycie automatycznego tytułu strony */
+/* Ukrycie automatycznego tytułu strony */
 .md-content h1:first-child {
   display: none;
 }
 
-/* 2. Globalny rozmiar czcionki treści (12px - dość mała) */
+/* Globalny rozmiar czcionki */
 .md-typeset {
   font-size: 0.75rem !important;
 }
 
-/* 3. Kolor nagłówków H3 (Indygo) */
+/* Kolor nagłówków H3 */
 .md-typeset h3 {
   color: #3f51b5 !important;
 }
 
-/* 4. Konfiguracja siatki (Grid) dla tabel obok siebie */
+/* Konfiguracja siatki (Grid) dla tabel obok siebie */
 .md-typeset .grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
@@ -28,7 +28,7 @@
   display: table !important;
 }
 
-/* 5. Ukrycie napisu "Made with Material for MkDocs" */
+/* Ukrycie "Made with Material for MkDocs" */
 .md-copyright__generator {
   display: none;
 }
